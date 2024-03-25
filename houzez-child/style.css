@@ -17,3 +17,275 @@ Template: houzez
 
 /* Your CSS code goes here
 -------------------------------------- */
+
+.foot-social .fa:before {
+	font-size: 28px;
+}
+.telefon {
+	text-align: center;
+}
+
+.process-inner {
+    float: left;
+    width: 234px;
+    text-align: center;
+    margin: 30px 0 0 0;
+}
+.work-procress-inner-wrap.one-fifth-part .fa, .work-procress-inner-wrap.one-fifth-part i {
+    font-size: 68px;
+    margin-top: 25px;
+    transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+}
+.process-inner .fa.fa-chevron-right {
+    line-height: 200px;
+    margin: 0 10px;
+}
+.work-procress-inner-wrap.one-fifth-part {
+    background-color: #f3f3f3;
+    float: left;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 200px;
+    transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    position: relative;
+}
+.work-procress-inner-wrap.one-fifth-part h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 0;
+    margin-top: 31px;
+    transition: all 0.1s ease 0s;
+    -webkit-transition: all 0.1s ease 0s;
+    -moz-transition: all 0.1s ease 0s;
+    -o-transition: all 0.1s ease 0s;
+        min-height: 56px;
+            padding: 0 2px;
+}
+.work-procress-inner-wrap.one-fifth-part:hover {
+    background-color: #0bbcee;
+    cursor: pointer;
+    color: white;
+}
+.work-procress-content {
+	display: none;
+}
+.work-procress-wrap {
+	background-color: #0bbcee;
+	padding: 18px 24px;
+	    line-height: 30px;
+    color: #FFFFFF;
+        margin-top: 30px;
+        position: relative;
+}
+
+.work-procress-wrap:after {
+	left: 7%;
+    content: "\f0d8";
+    font-family: fontawesome;
+    font-size: 40px;
+    height: 0;
+    position: absolute;
+    top: -21px;
+    color: #0bbcee;
+}
+.work-procress-wrap.tab-1:after {
+	left: 7%;
+}
+.work-procress-wrap.tab-2:after {
+	left: 28%;
+}
+.work-procress-wrap.tab-3:after {
+	left: 48%;
+}
+.work-procress-wrap.tab-4:after {
+	left: 67%;
+}
+.work-procress-wrap.tab-5:after {
+	left: 87%;
+}
+.process-inner.active .work-procress-inner-wrap{
+    background-color: #0bbcee;
+    color: white;
+}
+
+h2.section_heading {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    line-height: normal;
+    text-align: center;
+    margin: 0 0 7px;
+	color: #0bbcee;
+}
+.front-title-seperator {
+    background-color: #f3f3f3;
+    display: inline-block;
+    height: 1px;
+    margin: 23px 0 auto;
+    position: relative;
+    width: 130px;
+}
+.front-title-seperator > span {
+    background: none repeat scroll 0 0 #333;
+    border-radius: 20px;
+    bottom: 0;
+    height: 6px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: -3px;
+    width: 30px;
+    background-color: #0bbcee;
+}
+.parallax_inner_html h2 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 15px;
+	color: #0bbcee;
+}
+.call-to-action {
+	text-align: center;
+	background-color: rgb(238, 238, 238);
+    padding-top: 55px;
+	border-bottom: 1px solid #0bbcee;
+    padding-bottom: 4px;
+}
+.parallax_inner_html {
+    text-align: center;
+    margin-top: 40px;
+}
+a.medium-button {
+    transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+	background-color: #0bbcee;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 7px 18px;
+}
+.action-button {
+    margin-top: 35px;
+    text-align: center;
+}
+a.medium-button:hover {
+	background-color: #353b48;
+    transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+}
+/*gallery*/
+.image-gallery-slider {
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+.postformat-gallerydirection-nav .postformat-gallerynext {
+    background-image: url(images/plus.png);
+    background-repeat: no-repeat;
+}
+.postformat-gallerydirection-nav .postformat-galleryprev {
+    background-image: url(images/minus.png);
+    background-repeat: no-repeat;
+}
+.postformat-gallerydirection-nav {
+    list-style-type: none;
+    position: absolute;
+    right: -3px;
+    bottom: 19px;
+    z-index: 99;
+    margin: 0;
+}
+.postformat-gallerydirection-nav li a {
+    background-color: rgba(0, 0, 0, 0.1);
+    display: block;
+    font-style: normal;
+    font-size: 20px;
+    height: 40px;
+    line-height: 16px;
+    margin: 0 3px;
+    padding: 10px;
+    text-align: centertransition: all 0.5s linear 0s;
+    -webkit-transition: all 0.5s linear 0s;
+    -moz-transition: all 0.5s linear 0s;
+    -o-transition: all 0.5s linear 0s;
+    width: 40px;
+}
+.gallery-thumbnail-box li:first-child {
+    margin: 0;
+}
+.gallery-thumbnail-box li {
+    margin: 0 0 0 12px;
+    line-height: 0;
+    cursor: pointer;
+}
+.postformat-gallerydirection-nav li {
+    margin: 0;
+    list-style-type: none;
+}
+.chevron-mobile {
+    display: none;
+}
+.work-procress-inner-wrap.one-fifth-part .fa.chevron-mobile,
+.work-procress-inner-wrap.one-fifth-part i.chevron-mobile {
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 14px;
+    color: black;
+}
+.process-inner .fa.fa-chevron-right.chevron-mobile {
+    position: absolute;
+    bottom: -28px;
+    transform: rotate(90deg);
+    left: 83px;
+}
+.work-procress-wrap-mobile {
+    display: none;
+}
+@media only screen and (max-width: 1200px) {
+    .process-inner {
+        float: none;
+        margin: 30px auto;
+    }
+    .chevron-desctop {
+        display: none;
+    }
+    .chevron-mobile {
+        display: block;
+    }
+    .work-procress-inner-wrap.one-fifth-part {
+        margin-bottom: 50px;
+        float: none;
+    }
+    .work-procress-wrap.work-procress-wrap-mobile.active {
+        display: block;
+    }
+    .work-procress-wrap.work-procress-wrap-mobile:after {
+        left: 47%;
+    }
+    .work-procress-wrap.work-procress-wrap-desctop {
+        display: none;
+    }
+}
+@media only screen and (max-width: 766px) {
+	.process-inner {
+	    float: none;
+	    margin: 30px auto;
+	}
+	.work-procress-wrap:after,
+	work-procress-wrap.tab-1:after,
+	work-procress-wrap.tab-2:after,
+	work-procress-wrap.tab-3:after,
+	work-procress-wrap.tab-4:after,
+	work-procress-wrap.tab-5:after {
+    	left: 45% !important;
+	}	
+}
