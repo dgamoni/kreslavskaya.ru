@@ -13,6 +13,9 @@ function inloki_scripts_method() {
 
 	wp_register_script('jquery_flexslider_js', get_stylesheet_directory_uri() .'/js/jquery.flexslider-min.js', array('jquery'), '', true);
 	wp_enqueue_script('jquery_flexslider_js');
+
+	// wp_register_script('jquery_flexloader_js', get_stylesheet_directory_uri() .'/js/jquery.flexloader.js', array('jquery'), '', true);
+	// wp_enqueue_script('jquery_flexloader_js');
 } 
 
 add_action('wp_footer', 'add_custom_css');

@@ -77,7 +77,7 @@ $blog_author = houzez_option('blog_author'); ?>
 					animation: "fade",
 					namespace: "postformat-gallery",	
 					easing: "swing",				
-					direction: "vertical",
+					direction: "horizontal",
 					slideshow: <?php echo $_avis_postType_slider_autoplay; ?>,
 					slideshowSpeed:<?php echo $_avis_postType_slider_delay; ?>,		
 					animationSpeed:<?php echo $_avis_postType_slider_speed; ?>,		 

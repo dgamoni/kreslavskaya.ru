@@ -185,7 +185,7 @@ a.medium-button:hover {
 }
 /*gallery*/
 .image-gallery-slider {
-    height: 400px;
+    height: 381px;
     overflow: hidden;
     position: relative;
 }
@@ -249,9 +249,34 @@ a.medium-button:hover {
 }
 .work-procress-wrap-mobile {
     display: none;
+    margin-top: -15px;
+}
+
+.image-gallery-slider .slides > li:first-child {display: block; -webkit-backface-visibility: visible;}
+.image-gallery-slider .slides > li {display: none; -webkit-backface-visibility: hidden;}
+.gallery-thumbnail-slider {
+        margin-top: 10px;
+}
+.gallery-thumbnail-slider .slides > li:first-child {display: block; -webkit-backface-visibility: visible;}
+.gallery-thumbnail-slider .slides > li {display: none; -webkit-backface-visibility: hidden;}
+
+.process-inner.active .chevron-mobile {
+    display: none;
+}
+
+.footer-bottom .foot-social p a:hover {
+    color: rgba(236,64,122,1);
+    opacity: 0.8;
+}
+.call-to-action {
+    background-repeat: no-repeat;
+}
+ul.etag li {
+    list-style: none;
 }
 @media only screen and (max-width: 1200px) {
     .process-inner {
+        width: 200px;
         float: none;
         margin: 30px auto;
     }
@@ -269,10 +294,39 @@ a.medium-button:hover {
         display: block;
     }
     .work-procress-wrap.work-procress-wrap-mobile:after {
-        left: 47%;
+        left: 49%;
     }
     .work-procress-wrap.work-procress-wrap-desctop {
         display: none;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .header-mobile {
+        position: fixed;
+        width: 100%;
+    }
+    #section-body {
+        padding-top: 60px;
+    }
+}
+@media only screen and (max-width: 1199px) and (min-width: 1025px) {
+    .image-gallery-slider {
+        height: 316px;
+    }
+}
+@media only screen and (max-width: 1024px) and (min-width: 767px) {
+    .image-gallery-slider {
+        height: 252px;
+    }
+}
+@media only screen and (max-width: 766px) and (min-width: 500px) {
+    .image-gallery-slider {
+        height: 216px;
+    }
+}
+@media only screen and (max-width: 499px) and (min-width: 310px) {
+    .image-gallery-slider {
+        height: 136px;
     }
 }
 @media only screen and (max-width: 766px) {
@@ -286,6 +340,20 @@ a.medium-button:hover {
 	work-procress-wrap.tab-3:after,
 	work-procress-wrap.tab-4:after,
 	work-procress-wrap.tab-5:after {
-    	left: 45% !important;
-	}	
+    	left: 48% !important;
+	}
+    .article-footer .article-footer-right {
+        width: 50%;
+        text-align: right;
+    }	
+    .article-footer .author-meta {
+        width: 50%;
+        text-align: left;
+        line-height: 50px;
+    }
+}
+@media only screen and (max-width: 420px) {
+    h2.section_heading {
+        font-size: 30px;
+    }
 }
