@@ -20,6 +20,9 @@ global $houzez_local;
 
 <?php get_template_part('template-parts/scroll-to-top'); ?>
 
+
+
+
 <!--start footer section-->
 <footer id="footer-section">
     
@@ -119,6 +122,7 @@ global $houzez_local;
 <?php } ?>
 
 <?php wp_footer(); ?>
+
 
 </body>
 </html>

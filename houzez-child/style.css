@@ -274,6 +274,12 @@ a.medium-button:hover {
 ul.etag li {
     list-style: none;
 }
+#statuss {
+    display: none;
+}
+.detail-title {
+	display: none;
+}
 @media only screen and (max-width: 1200px) {
     .process-inner {
         width: 200px;

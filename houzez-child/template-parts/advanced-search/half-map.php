@@ -15,6 +15,10 @@ if( $measurement_unit_adv_search == 'sqft' ) {
 
 $adv_search_price_slider = houzez_option('adv_search_price_slider');
 $status = $type = $location = $area = $searched_country = $state = $label = '';
+global $post;
+if($post->post_name == 'rent'){
+    $status = 'for-rent';
+}
 $adv_show_hide = houzez_option('adv_show_hide_halmap');
 $enable_disable_save_search = houzez_option('enable_disable_save_search');
 
@@ -223,9 +227,9 @@ if ($adv_show_hide['keyword'] != 1) {
             </div>
             <?php } ?>
 
-
+            <?php //var_dump($adv_show_hide['status']); ?>
             <?php if( $adv_show_hide['status'] != 1 ) { ?>
-            <div class="col-md-3 col-sm-6 col-xs-6">
+            <div id="statuss" class="col-md-3 col-sm-6 col-xs-6">
                 <div class="form-group">
                     <select class="selectpicker" name="status" data-live-search="false" data-live-search-style="begins">
                         <?php
